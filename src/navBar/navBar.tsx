@@ -14,11 +14,11 @@ import {
 import './navBar.css';
 
 
-class NavBar extends React.Component {
+class NavBar extends React.Component<any, any> {
 
-  constructor(props) {
+  constructor(props: any) {
     super(props);
-    this.state = JSON.parse(window.localStorage.getItem('state')) ||  {
+    this.state = JSON.parse(window.localStorage.getItem('state')!) ||  {
       isActive: "active",
       checkAboutMe: "false",
       checkEduExp: "false",
@@ -28,51 +28,13 @@ class NavBar extends React.Component {
     }
   }
 
-  // componentDidMount() {
-  //   console.log(this.state.isDarkMode);
-  //   console.log(document.body.classList);
-
-  //   // if(this.state.isDarkMode ) {
-  //   //   console.log(document.body.classList);
-  //   //   document.body.classList.value = "";
-  //   // }
-  //   // else {
-  //   //   console.log(document.body.classList);
-  //   //   document.body.classList.value = "light"
-  //   // }
-  // }
-
-  setState(state) {
+  setState(state: any) {
     console.log(this.state.isDarkMode);
     window.localStorage.setItem('state', JSON.stringify(state));
     super.setState(state);
   }
 
-  // switchMode = () => {
-  //   console.log("switch mode");
-  //   let element = document.body;
-  //   console.log(element.classList);
-  //   element.classList.toggle("light");
-  //   console.log(this.state.isDarkMode)
-  //   this.setState({
-  //     isDarkMode: !this.state.isDarkmode,
-  //   });
-  //   console.log(this.state.isDarkMode);
-  //   // if (element.classList.value === "light") {
-  //   //   console.log("1")
-  //   //   this.setState({
-  //   //     isDarkMode: false,
-  //   //   });
-  //   // }
-  //   // else {
-  //   //   console.log("2")
-  //   //   this.setState({
-  //   //     isDarkMode: true,
-  //   //   });
-  //   // }
-  // };
-
-  setActiveButton(number) {
+  setActiveButton(number: any) {
     console.log(number);
     if(number === 0) {
       console.log("home is pressed");

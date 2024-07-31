@@ -1,8 +1,8 @@
 import React from 'react';
 import './aboutMe.css';
 
-class AboutMe extends React.Component {
-  constructor (props) {
+class AboutMe extends React.Component<any, any> {
+  constructor (props: any) {
     super(props);  
   }
   render() {

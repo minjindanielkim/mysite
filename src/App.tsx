@@ -15,11 +15,11 @@ import Contact from './pages/contacts';
 import './App.css'
 // import { Chart } from "react-google-charts";
 
-let navbar;
-let sticky;
+let navbar: HTMLElement | null = null;
+let sticky = 0;
 
-class App extends React.Component {
-  constructor(props) {
+class App extends React.Component<any, any> {
+  constructor(props: any) {
     super(props);
     this.state = {
        changetoLight: false,
@@ -27,7 +27,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    navbar = document.getElementById("topnav");
+    navbar = document.getElementById("topnav") as HTMLElement;
     sticky = navbar.offsetTop;
     window.addEventListener('scroll', this.handleSticky);
   }
@@ -38,10 +38,10 @@ class App extends React.Component {
 
   handleSticky = () => {
     if (window.pageYOffset > sticky) {
-      navbar.classList.add("sticky");
+      navbar?.classList.add("sticky");
     }
     else {
-      navbar.classList.remove("sticky");
+      navbar?.classList.remove("sticky");
     }
   }
 

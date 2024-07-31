@@ -1,23 +1,8 @@
 import React from 'react';
 import './home.css'
-import { Chart } from "react-google-charts";
 
-// export const data = [
-//   ["Language", "Hours per Day"],
-//   ["Work", 11],
-//   ["Eat", 2],
-//   ["Commute", 2],
-//   ["Watch TV", 2],
-//   ["Sleep", 7],
-// ];
-
-// export const options = {
-//   title: "Programming Languages",
-//   is3D: true,
-// };
-
-class Home extends React.Component {
-  constructor (props) {
+class Home extends React.Component<any, any> {
+  constructor (props: any) {
     super(props);  
   }
 
@@ -33,15 +18,6 @@ class Home extends React.Component {
             <a href="/projects">
               View my projects →
             </a>
-            {/* <div className="pieChart">
-              <Chart
-                chartType="PieChart"
-                data={data}
-                options={options}
-                width={"70%"}
-                height={"200px"}
-              />
-            </div> */}
           </div>
       </>
     )

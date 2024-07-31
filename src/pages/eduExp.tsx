@@ -4,8 +4,8 @@ import uwaterlooLogo from "../images/UniversityOfWaterloo_logo_horiz_rgb.png";
 import buyersonLogo from "../images/buyerson.png";
 import adaptivePulseLogo from "../images/adaptivePulse.png";
 
-class EduExp extends React.Component {
-  constructor (props) {
+class EduExp extends React.Component<any, any> {
+  constructor (props: any) {
     super(props);  
   }
   render() {

@@ -3,8 +3,8 @@ import './contacts.css';
 import linkedinLogo from "../images/linkedinlogo.png";
 import github from "../images/github.png";
 
-class Contact extends React.Component {
-  constructor(props) {
+class Contact extends React.Component<any, any> {
+  constructor(props: any) {
     super(props);
   }
 

@@ -4,8 +4,8 @@ import discord from '../images/discord.png';
 import audio from '../images/audio.png';
 import connect4 from '../images/connect4.jpeg';
 
-class Projects extends React.Component {
-  constructor (props) {
+class Projects extends React.Component<any, any> {
+  constructor (props : any) {
     super(props);  
   }
   render() {
