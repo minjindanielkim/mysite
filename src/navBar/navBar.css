@@ -1,0 +1,68 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #28282B;
+  color: #E2DFD2;
+}
+
+.light {
+  background-color: #E2DFD2;
+  color: #222;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFE0
+}
+
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+
+.topnav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.topnav a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.topnav a.active {
+  background-color: #323232;
+  color: white;
+}
+
+/* .dark {
+ background-color: #222;
+  color: #e6e6e6;
+} */
+
+.light {
+  background-color: #e6e6e6
+  color: #222
+}

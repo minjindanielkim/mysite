@@ -1,0 +1,23 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  margin-top: 10px;
+}
+
+/* body {
+  background-color: #28282B;
+  color: #E2DFD2;
+}
+
+.light {
+  background-color: #E2DFD2;
+  color: #222
+} */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+

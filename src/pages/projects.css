@@ -1,0 +1,23 @@
+.projectitle {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.projbody {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.projSummary {
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+}
+
+.subHeader {
+  font-size: 25px;
+}
+
+p {
+  font-size: 16px;
+}

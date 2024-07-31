@@ -1,0 +1,66 @@
+.mainBody {
+  width: 100%;
+  display: flex;
+}
+
+.uni {
+  margin-top: 20px;
+}
+
+.titleHeader {
+  text-align: center;
+  margin-top: 10px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.uwaterloo {
+  width: 50%;
+  height: auto;
+}
+
+.leftCol {
+  flex: 0 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightCol {
+  flex: 0 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subTitle1 {
+  font-weight: bold;
+}
+
+.subTitle2 {
+  font-weight: bold;
+}
+
+.side2 {
+  vertical-align: middle;
+  display: inline;
+  margin-left: 10px;
+}
+
+.experienceText {
+  margin-top: 10px;
+}
+.buyerson {
+  margin-top: 20px;
+}
+
+.adaptivePulse {
+  margin-top: 30px;
+}
+
+.exp {
+  margin-top: 75px;
+}
