@@ -100,7 +100,7 @@ class NavBar extends React.Component<any, any> {
     return (
       <>     
           <div className="topnav">
-            <a href="https://606b53ef-7efc-48ac-8dc8-7f90f972ab3e-00-32azr7ex5tsw0.picard.replit.dev/" style={{float:"left"}} onClick={() => this.setActiveButton(0)}>Daniel Kim</a>
+            <a href="/" style={{float:"left"}} onClick={() => this.setActiveButton(0)}>Daniel Kim</a>
             {/* <button onClick={() => this.switchMode()}>Switch mode</button> */}
             <a href="/contacts" onClick={() => this.setActiveButton(3)} className={this.state.checkContacts}>Contact Me</a>
             <a href="/projects" onClick={() => this.setActiveButton(4)} className={this.state.checkProjects}>Projects</a>
