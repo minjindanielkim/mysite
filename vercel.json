@@ -1,0 +1,8 @@
+{
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"},
+    {"source": "/(.*)", "destination": "/projects"},
+    {"source": "/(.*)", "destination": "/eduExp"},
+    {"source": "/(.*)", "destination": "/contacts"},
+  ]
+}
