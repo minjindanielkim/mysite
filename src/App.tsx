@@ -45,15 +45,6 @@ class App extends React.Component<any, any> {
     }
   }
 
-  // toggleMode() {
-  //   console.log("change");
-  //   let element=document.body;
-  //   element.classList.toggle("light");
-  //   this.setState({
-  //     changetoLight: true,
-  //   });
-  // }
-
   render() {
     return (
       <>
