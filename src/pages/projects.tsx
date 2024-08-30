@@ -2,6 +2,7 @@ import React from 'react';
 import './projects.css';
 import discord from '../images/discord.png';
 import audio from '../images/audio.png';
+import fmanager from '../images/fmanager.png';
 import connect4 from '../images/connect4.jpeg';
 
 class Projects extends React.Component<any, any> {
@@ -19,7 +20,10 @@ class Projects extends React.Component<any, any> {
         </div>
         <div className="projbody">
           <div className="subHeader">
-            1. Discord Bot          
+            1. Discord Bot   
+          </div>
+          <div>
+            <a href="https://github.com/minjindanielkim/discord-bot" target="_blank">Source</a>
           </div>
           <img className="discord" src={discord} alt="discord" />
           <div className="projSummary">
@@ -39,6 +43,9 @@ class Projects extends React.Component<any, any> {
           <div className="subHeader">
             2. Audio Generator
           </div>
+          <div>
+            <a href="https://github.com/minjindanielkim/audio_generator" target="_blank">Source</a>
+          </div>
           <img className='audio' src={audio} alt="audio" />
           <div className="projSummary"> 
           <p>
@@ -54,18 +61,15 @@ class Projects extends React.Component<any, any> {
           </p>
             </div>
           <div className="subHeader">
-            3. Connect 4
+            3. Personal Finance-Manager
           </div>
-          <img className = 'connect' src={connect4} alt="connect4" />
+          <div>
+            Click <a href="https://spending-manager.vercel.app/" target="_blank">here</a> 
+          </div>
+          <img className="finance_manager" src={fmanager} alt="finance_manager" />
           <div className='projSummary'>
           <p>
-            One of the most well known board games in the Western world. Connect 4 is a game where 
-            two players try to fill up the board with four colors of their own in a row. 
-            My mentor had recommended me this project, as it would be an excellent example 
-            on how to implement 2D arrays and how to implement an AI in a game. Furthermore,
-            this project is unique in a way as it actually shows where coins are being placed within the   
-            Connect 4 board. This was definitely one of the more difficult projects that I have done               , as implementing a turn system along side an AI, while simultaneously checking on the 2D 
-  array to see if there is a potential victor. This was a project with many different layers onto it and it is what showed me how difficult it can be to implement and work with 2D arrays.
+            During my time in the miltary, I noticed a common trend among my fellow brothers in arms. People were too reckless in their spending habbits. As I was reaserching this cause, it seemed like everyone had a common issue. They spending most if not all of their paychecks on the PX (a military convinence store). While brainstorming ideas on what software could potentially be useful in keeping track of their finances, I decided that a simple finace manager would be optimal. I decided to build this app using React JS and to deploy to production using Vercel. It allowed users to create a budget for themselves and record all the purchases they have made and their costs. Once hitting the submit button, it would display how much of the budget was remaining and a graph to display where their money was being allocated to the most. Overall, this was one of my most successful projects, as it had over 20 users, and all of them saying that they appreciated a product that helped track their finances. 
           </p>
             </div>
         </div>
