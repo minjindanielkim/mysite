@@ -13,7 +13,6 @@ import Projects from './pages/projects';
 import Home from './pages/home';
 import Contact from './pages/contacts';
 import './App.css'
-// import { Chart } from "react-google-charts";
 
 let navbar: HTMLElement | null = null;
 let sticky = 0;

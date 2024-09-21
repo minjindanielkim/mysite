@@ -18,7 +18,7 @@ class Contact extends React.Component<any, any> {
           <br/>
           Phone: 010-4459-9994 <br/>
           {/*Email: d382kim@uwaterloo.ca*/} <br/>
-          Email: kimdani@aquinas.org <br />
+          Email: d382kim@uwaterloo.ca <br />
           <br/>
           <div>
             <a href="https://www.linkedin.com/in/minjin-kim-389b01224/" target="_blank">

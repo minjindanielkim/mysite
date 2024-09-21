@@ -1,5 +1,6 @@
 import React from 'react';
-import './home.css'
+import './home.css';
+import { Analytics } from "@vercel/analytics/react";
 
 class Home extends React.Component<any, any> {
   constructor (props: any) {
@@ -18,6 +19,7 @@ class Home extends React.Component<any, any> {
             <a href="/projects">
               View my projects →
             </a>
+            <Analytics />
           </div>
       </>
     )
