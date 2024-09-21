@@ -19,8 +19,8 @@ class Home extends React.Component<any, any> {
             <a href="/projects">
               View my projects →
             </a>
-            <Analytics />
           </div>
+        <Analytics />
       </>
     )
   }
