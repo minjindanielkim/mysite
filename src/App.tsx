@@ -12,7 +12,8 @@ import EduExp from './pages/eduExp';
 import Projects from './pages/projects';
 import Home from './pages/home';
 import Contact from './pages/contacts';
-import './App.css'
+import './App.css'; 
+import { Analytics } from "@vercel/analytics/react";
 
 let navbar: HTMLElement | null = null;
 let sticky = 0;
@@ -60,6 +61,7 @@ class App extends React.Component<any, any> {
             <Route path='/contacts' element = {<Contact />}> </Route>
           </Routes>
         </Router>
+        <Analytics />
       </>
     )
   }
