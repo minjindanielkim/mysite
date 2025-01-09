@@ -16,7 +16,7 @@ class Contact extends React.Component<any, any> {
           I am available at all times, and I am always open to new opportunities.
           <br/>
           <br/>
-          Phone: 010-4459-9994 <br/>
+          Phone: 437-341-9309 <br/>
           {/*Email: d382kim@uwaterloo.ca*/} <br/>
           Email: d382kim@uwaterloo.ca <br />
           <br/>
