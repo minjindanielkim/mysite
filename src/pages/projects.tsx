@@ -64,7 +64,7 @@ class Projects extends React.Component<any, any> {
             3. Personal Finance-Manager
           </div>
           <div>
-            Click <a href="https://spending-manager.vercel.app/" target="_blank">here</a> 
+            <a href="https://spending-manager.vercel.app/" target="_blank">Finance-Manger</a> 
           </div>
           <img className="finance_manager" src={fmanager} alt="finance_manager" />
           <div className='projSummary'>
