@@ -4,6 +4,7 @@ import uwaterlooLogo from "../images/UniversityOfWaterloo_logo_horiz_rgb.png";
 import buyersonLogo from "../images/buyerson.png";
 import adaptivePulseLogo from "../images/adaptivePulse.png";
 import kikreachLogo from "../images/kikreach.png";
+import strongcorelogo from "../images/strongcoreai.png";
 
 class EduExp extends React.Component<any, any> {
   constructor(props: any) {
@@ -106,6 +107,14 @@ class EduExp extends React.Component<any, any> {
                     My personal favorite accomplishment I managed to do in my time at KikTok was optimizing the database read-writes using parallel processing to speed up queries of over 40K creators.
                     This task allowed me to understand more about database read-writes and learn a new computing method that makes use of more than one processor to speed up tasks.
                     This co-op allowed me to fully utilize AI APIs and the right experience to work with and optmize these tools for commercial use.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <img className="strongcore" src={strongcorelogo} alt="strongcore" />
+                <div className="experienceText">
+                  <p>
+By leveraging Apache Wicket and AJAX, I designed and implemented a dynamic frontend-to-backend synchronization system that allowed widgets to load instantly, successfully slashing overall page load times from 5 seconds to just 1 second, representing an 80% improvement in performance. Complementing this focus on optimization, I also built a comprehensive OWL ontology from scratch using Protégé. This model mapped complex system relationships and enabled structured knowledge queries, ultimately providing the foundational architecture to support and enhance internal search tooling.
                   </p>
                 </div>
               </div>

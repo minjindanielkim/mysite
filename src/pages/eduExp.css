@@ -25,14 +25,14 @@ span {
 .leftCol {
   flex: 0 0 50%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
 .rightCol {
   flex: 0 0 50%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -61,6 +61,12 @@ span {
   margin-top: 30px;
 }
 
+.strongcore {
+  height: 100px;
+  width: auto;
+  margin-top: 30px;
+}
+
 .exp {
-  margin-top: 75px;
+  margin-top: 20px;
 }
