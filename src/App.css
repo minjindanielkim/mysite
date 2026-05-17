@@ -1,18 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1c1f;
+  color: #e8e6e1;
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
 main {
   text-align: center;
-  vertical-align: center;
   margin-top: 10px;
 }
-
-/* body {
-  background-color: #28282B;
-  color: #E2DFD2;
-}
-
-.light {
-  background-color: #E2DFD2;
-  color: #222
-} */
 
 .sticky {
   position: fixed;
@@ -20,4 +22,3 @@ main {
   width: 100%;
   z-index: 100;
 }
-

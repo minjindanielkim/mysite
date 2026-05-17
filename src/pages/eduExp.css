@@ -1,25 +1,19 @@
+.titleHeader {
+  text-align: center;
+  padding: 48px 24px 16px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e8e6e1;
+  letter-spacing: -0.5px;
+}
+
 .mainBody {
   width: 100%;
   display: flex;
-}
-
-.uni {
-  margin-top: 20px;
-}
-
-.titleHeader {
-  text-align: center;
-  margin-top: 10px;
-}
-
-span {
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.uwaterloo {
-  width: 50%;
-  height: auto;
+  gap: 0;
 }
 
 .leftCol {
@@ -27,6 +21,8 @@ span {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  padding: 24px 40px;
+  border-right: 1px solid #2a2a32;
 }
 
 .rightCol {
@@ -34,39 +30,81 @@ span {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  padding: 24px 40px;
 }
 
-.subTitle1 {
-  font-weight: bold;
-}
-
+.subTitle1,
 .subTitle2 {
-  font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #c9b690;
+  margin-bottom: 16px;
 }
 
-.side2 {
-  vertical-align: middle;
-  display: inline;
-  margin-left: 10px;
+.uni p,
+.exp p {
+  color: #b8b5ae;
+  font-size: 0.93rem;
+  line-height: 1.8;
+  margin-bottom: 12px;
 }
 
-.experienceText {
-  margin-top: 10px;
-}
-.buyerson {
-  margin-top: 20px;
+.uni ul {
+  color: #b8b5ae;
+  font-size: 0.93rem;
+  line-height: 2;
+  padding-left: 20px;
+  margin-bottom: 12px;
 }
 
-.adaptivePulse {
-  margin-top: 30px;
+.uwaterloo {
+  width: 60%;
+  height: auto;
+  margin-top: 24px;
+  opacity: 0.85;
+}
+
+.adaptivePulse,
+.buyerson,
+.kikreach {
+  margin-top: 32px;
+  max-height: 48px;
+  width: auto;
 }
 
 .strongcore {
-  height: 100px;
+  height: 56px;
   width: auto;
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
-.exp {
-  margin-top: 20px;
+.experienceText p {
+  margin-top: 12px;
+  color: #b8b5ae;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.experienceText a {
+  color: #c9b690;
+  text-decoration: none;
+}
+
+.experienceText a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .mainBody {
+    flex-direction: column;
+  }
+
+  .leftCol,
+  .rightCol {
+    flex: unset;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #2a2a32;
+    padding: 24px 20px;
+  }
 }
