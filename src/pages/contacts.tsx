@@ -12,23 +12,22 @@ class Contact extends React.Component<any, any> {
     return (
       <>
         <div className="contactBody">
-          Feel free to contact me! <br/>
-          I am available at all times, and I am always open to new opportunities.
-          <br/>
-          <br/>
-          Phone: 437-341-9309 <br/>
-          {/*Email: d382kim@uwaterloo.ca*/} <br/>
-          Email: d382kim@uwaterloo.ca <br />
-          <br/>
-          <div>
+          <div className="contactTitle">Get In Touch</div>
+          <div className="contactSubtitle">
+            I'm always open to new opportunities and conversations.
+          </div>
+          <div className="contactInfo">
+            <div>Phone: 437-341-9309</div>
+            <div>Email: <a href="mailto:d382kim@uwaterloo.ca">d382kim@uwaterloo.ca</a></div>
+          </div>
+          <div className="socialLinks">
             <a href="https://www.linkedin.com/in/minjin-kim-389b01224/" target="_blank">
-              <img className="linkedinLogo" src={linkedinLogo} alt="linkedinlogo"/> 
+              <img className="linkedinLogo" src={linkedinLogo} alt="LinkedIn" />
             </a>
             <a href="https://github.com/minjindanielkim" target="_blank">
-              <img className="githubLogo" src={github} alt="github"/>
+              <img className="githubLogo" src={github} alt="GitHub" />
             </a>
           </div>
-
         </div>
       </>
     )

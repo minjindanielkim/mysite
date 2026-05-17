@@ -1,26 +1,59 @@
-/* body {
-  background-color: #28282B;
-  color: #E2DFD2;
-} */
-
-/* .light {
-  background-color: #E2DFD2;
-  color: #222
-} */
-
 .homeBody {
-  position: relative;
-  left: 400px;
-  top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 57px);
+  max-width: 720px;
+  padding: 0 56px;
+}
+
+.homeBody h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #e8e6e1;
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.homeBody h4 {
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #9a9893;
+  margin-bottom: 24px;
+}
+
+.homeBody p {
+  color: #b8b5ae;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 36px;
+}
+
+.homeBody a {
+  display: inline-block;
+  color: #c9b690;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border: 1px solid #c9b690;
+  padding: 10px 24px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  align-self: flex-start;
 }
 
 .homeBody a:hover {
-  display: inline-block;
-  position: relative;
-  color: #000000;
+  background-color: #c9b690;
+  color: #1c1c1f;
 }
 
-.pieChart {
-  margin-top: 50px;
-  background-color: #28282B
+@media (max-width: 600px) {
+  .homeBody {
+    padding: 0 24px;
+    min-height: calc(100vh - 57px);
+  }
+
+  .homeBody h1 {
+    font-size: 2rem;
+  }
 }
